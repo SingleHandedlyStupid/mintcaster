@@ -1,0 +1,23 @@
+<h1>API</h1>
+
+<h2>MintCaster:Cast(Origin:Vector3, Destination:Vector3, IgnoreList: {}, Length:Number)</h2>
+<p>
+Executes the main logic.
+</p>
+
+<h3>Parameters</h3>
+<ul>
+  <li><strong>Origin</strong> — Vector3</li>
+  <li><strong>Destination</strong> — Vector3</li>
+  <li><strong>IgnoreList</strong> — {Parts} to ignore</li>
+  <li><strong>Length</strong> — Maximum Length of the ray,</li>
+</ul>
+
+<h3>Returns</h3>
+<ul>
+  <li><strong>RaycastResult</strong></li>
+</ul>
+
+<pre><code>
+MyModule:Cast(Vector3.new(0,30,0),Vector3.new(0,0,90),{},-1)
+</code></pre>
