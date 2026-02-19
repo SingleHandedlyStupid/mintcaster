@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MintCaster Docs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h2>MintCaster</h2>
+    <a href="index.html">Overview</a>
+    <a href="install.html">Installation</a>
+    <a href="api.html">API</a>
+    <a href="examples.html">Examples</a>
+  </aside>
+
+  <main class="content">
+    <h1>MintCaster</h1>
+    <p>
+      A lightweight module for <strong>:contentReference[oaicite:1]{index=1}</strong>.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Fast</li>
+      <li>Server-sided & Client-sided</li>
+      <li>Zero dependencies</li>
+    </ul>
+
+    <h2>Example</h2>
+    <pre><code>
+local MintCaster = require(path.to.module)
+
+MintCaster:Cast(Origin:Vector3, Destination:Vector3, IgnoreList: {}, Length:Number): RaycastResult
+    </code></pre>
+  </main>
+</div>
+
+</body>
+</html>
